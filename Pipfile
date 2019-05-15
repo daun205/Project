@@ -4,7 +4,15 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+django = "*"
 djangorestframework = "*"
+django-cors-headers = "*"
+django_heroku = "*"
+dj-database-url = "*"
+gunicorn = "*"
+"psycopg2" = "*"
+whitenoise = "*"
+requests = "*"
 
 [dev-packages]
 
